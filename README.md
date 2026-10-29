@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Send AI is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.send.ai/
+Send AI provides an AI‑powered document processing platform that automates email, document and EDI workflows for supply‑chain, logistics and enterprise systems. It extracts and structures data from complex documents, applies business rules, and delivers clean output to TMS, ERP or AI agents. The platform offers a unified inbox, unlimited partner connections, and live deployment in days, not months.
+
+**Areas:** Company · AI · Document Processing · EDI · Supply Chain · Integration
+
+## Send AI on APIs.io
+
+Everything profiled for Send AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/send-ai/](https://apis.io/providers/send-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Send AI API](https://apis.io/apis/send-ai/send-ai-api-2/) — Send AI platform API
+- [Send AI API](https://apis.io/apis/send-ai/send-ai-api/) — Send AI API as documented publicly: 17 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV2TeamidProjectProjectidUploadUploadidResponse](https://apis.io/schemas/send-ai/send-ai-get-v2-teamid-project-projectid-upload-uploadid-response/)
+- [PostV2Team123456ProjectProj123456UploadUpld123456468MoveFold](https://apis.io/schemas/send-ai/send-ai-post-v2-team123456-project-proj123456-upload-upld123456468-move-fold/)
+- [PostV2TeamidProjectProjectidTaskTaskidApproveResponse](https://apis.io/schemas/send-ai/send-ai-post-v2-teamid-project-projectid-task-taskid-approve-response/)
+- [PostV2TeamidProjectProjectidTaskTaskidDisapproveResponse](https://apis.io/schemas/send-ai/send-ai-post-v2-teamid-project-projectid-task-taskid-disapprove-response/)
+- [PostV2TeamidProjectProjectidUploadRequest](https://apis.io/schemas/send-ai/send-ai-post-v2-teamid-project-projectid-upload-request/)
+- [PostV2TeamidProjectProjectidUploadResponse](https://apis.io/schemas/send-ai/send-ai-post-v2-teamid-project-projectid-upload-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Send Ai Context](https://apis.io/jsonld/send-ai/send-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Send AI API Rules](https://apis.io/rules/send-ai/send-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Send Ai Authentication](https://apis.io/security/send-ai/send-ai-authentication/)
+- [Send Ai Domain Security](https://apis.io/security/send-ai/send-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Send Ai Scopes](https://apis.io/scopes/send-ai/send-ai-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Send Ai Rate Limits](https://apis.io/rate-limits/send-ai/send-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.send.ai/)
+- [Documentation](https://docs.send.ai/)
+- [Getting started](https://docs.send.ai/getting-started/overview)
+- [API reference](https://docs.send.ai/api/authentication)
+- [Trust centre](https://trust.send.ai)
+- [Terms of service](https://www.send.ai/legal/terms-of-use)
+- [Privacy policy](https://www.send.ai/legal/privacy-policy)
+- [GitHub](https://github.com/send-ai)
+
+## API Evangelist rating
+
+**Kin Score 50.7** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 30.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/send-ai/](https://apis.io/providers/send-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Send AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/send-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
